@@ -1,0 +1,52 @@
+#welcome {
+  margin-top: -3rem;
+  color: #fff;
+  padding: 2rem;
+  max-width: 500px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#welcome h2 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  color: #9c27b0;
+}
+
+#welcome p {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+}
+
+#welcome button {
+  background: linear-gradient(135deg, #4caf50, #8e998e);
+  color: #fff;
+  background-color: #5e0d94;
+  color: #fff;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 60px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(163, 152, 152, 0.3);
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+#welcome button:hover {
+  background-color: #d8e9d9;
+   background: linear-gradient(135deg, #66bb6a, #388e3c); /* gradiente mais claro no hover */
+  transform: scale(1.05); /* leve aumento ao passar o mouse */
+  box-shadow: 0 6px 14px rgba(0,0,0,0.4);
+}
+
+#welcome img {
+  width: 800px;
+  max-width: 80%;
+  margin-top: 1.5rem;
+}

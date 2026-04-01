@@ -1,0 +1,42 @@
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem; /* antes era 1rem, agora mais próximo */
+  margin-bottom: 1.2rem;
+}
+
+.options button {
+  background-color: #9c27b0; /* roxo padrão */
+  color: #fff;
+  border: none;
+  padding: 0.8rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.options button:hover {
+  background-color: #7b1fa2;
+}
+
+
+.correct {
+  background-color: green;
+  color: white;
+}
+
+.wrong {
+  background-color: red;
+  color: white;
+}
+
+.hide {
+  display: none;
+}
+
+.scoreboard {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  color: #4caf50; /* verde para destacar */
+}

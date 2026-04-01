@@ -1,0 +1,107 @@
+#question {
+  color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 500px;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+#question h2 {
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  color: #9c27b0;
+}
+
+#question p {
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.options button {
+  background: linear-gradient(135deg, #9c27b0, #6a1b9a); /* gradiente roxo */
+  color: #fff;
+  border: none;
+  padding: 1rem;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  transition: all 0.3s ease;
+}
+
+.options button:hover {
+  background: linear-gradient(135deg, #ba68c8, #8e24aa); /* hover mais claro */
+  transform: scale(1.05);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.4);
+  border: 2px solid #4caf50; /* borda verde no hover */
+  color: #c8e6c9; /* texto esverdeado no hover */
+}
+
+.finish-btn {
+  margin-top: 1rem;
+  background-color: #4caf50; /* verde para finalizar */
+  color: #fff;
+  border: none;
+  padding: 0.8rem 1.2rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.finish-btn:hover {
+  background-color: #388e3c;
+}
+
+#question img {
+  width: 300px;
+  margin: 1rem auto;
+  display: block;
+}
+
+.feedback {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.feedback:contains("Correto!") {
+  color: #4caf50; /* verde para correto */
+}
+
+.feedback:contains("Errado!") {
+  color: #f44336; /* vermelho para errado */
+}
+
+.finish-btn,
+.restart-btn,
+.play-again-btn {
+  background: linear-gradient(135deg, #4caf50, #2e7d32); /* gradiente verde */
+  color: #fff;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  transition: all 0.3s ease;
+}
+
+.finish-btn:hover,
+.restart-btn:hover,
+.play-again-btn:hover {
+  background: linear-gradient(135deg, #66bb6a, #388e3c);
+  transform: scale(1.05);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.4);
+}

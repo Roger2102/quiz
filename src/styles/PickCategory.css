@@ -1,0 +1,43 @@
+#category {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#category h2 {
+  margin-bottom: 1rem;
+  color: #9c27b0;
+}
+
+#category .options {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+#category .options button {
+  background: linear-gradient(135deg, #9c27b0, #6a1b9a); /* gradiente roxo */
+  color: #fff;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  transition: all 0.3s ease;
+}
+
+#category .options button:hover {
+  background: linear-gradient(135deg, #ba68c8, #8e24aa); /* hover mais claro */
+  transform: scale(1.05);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.4);
+  cursor: pointer;
+}
+
+/* Cursor verde no hover */
+#category .options button:hover {
+  color: #c8e6c9; /* texto fica esverdeado */
+  border: 2px solid #4caf50; /* borda verde */
+}

@@ -1,0 +1,72 @@
+#gameover {
+  color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 500px;
+  margin: 2rem auto;
+  margin-top: -4rem;
+  text-align: center;
+}
+
+#gameover h2 {
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  color: #4caf50;
+}
+
+#gameover p {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.message {
+  margin: 1rem 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #9c27b0; /* roxo para destaque */
+}
+
+/* Estrelas */
+.stars {
+  margin: 1rem 0;
+  font-size: 2rem;
+}
+
+.star {
+  color: #555; /* cinza para estrelas vazias */
+  margin: 0 0.2rem;
+}
+
+.star.filled {
+  color: #ffd700; /* dourado para estrelas preenchidas */
+}
+
+/* Botões verdes elegantes */
+.restart-btn,
+.play-again-btn {
+  background: linear-gradient(135deg, #4caf50, #2e7d32); /* gradiente verde */
+  color: #fff;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  transition: all 0.3s ease;
+  margin: 0 0.5rem;
+}
+
+.restart-btn:hover,
+.play-again-btn:hover {
+  background: linear-gradient(135deg, #66bb6a, #388e3c);
+  transform: scale(1.05);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.4);
+  border: 2px solid #9c27b0; /* borda roxa no hover */
+  color: #e1bee7; /* texto levemente roxo no hover */
+}
+
+#gameover img {
+  width: 300px;
+  margin-top: 6rem;
+}
